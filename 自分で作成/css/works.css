@@ -1,0 +1,46 @@
+/* ┌─────────────────────────────────────────┐
+   │ Works                                   │
+   └─────────────────────────────────────────┘ */
+
+/* Worksエリア */
+.works_area {
+  padding-right: 30rem;
+  padding-left: 30rem;
+}
+
+/* Worksタイトル */
+.works_title {
+  padding-top: 3rem;
+  font-size: 3rem;
+  text-align: center;
+
+  margin-bottom: 3rem;
+}
+
+/* 作品一覧【flex 縦N行: 作品ブロック】 */
+.works_list {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+/* └ 作品ブロック */
+.works_item {
+  margin-bottom: 3rem;
+}
+
+/* 作品画像 */
+.works_img {
+}
+
+/* 作品タイトル */
+.works_name {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* 作品説明文 */
+.works_description {
+  font-size: 1.4rem;
+  margin-top: 1rem;
+}

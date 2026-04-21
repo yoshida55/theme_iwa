@@ -1,0 +1,215 @@
+@charset "UTF-8";
+/*
+Theme Name: my-work
+*/
+html {
+  font-size: 100%;
+}
+body {
+  color: #24292e;
+  font-size: 0.9rem;
+  min-height: 100vh;
+  position: relative;
+}
+a {
+  text-decoration: none;
+  color: #24292e;
+}
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+li {
+  list-style: none;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 4% 240px 4%;
+}
+.site-title {
+  line-height: 1px;
+}
+.site-title a {
+  display: block;
+}
+.page-title {
+  font-size: 1.5rem;
+  margin-bottom: 65px;
+  text-align: center;
+}
+.article-title {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+.sec-title {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 65px;
+}
+.link {
+  display: block;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/*-------------------------------------------
+ヘッダー
+-------------------------------------------*/
+#header {
+  max-width: 960px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 270px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+#header ul {
+  display: flex;
+  padding: 10px 0;
+}
+#header li {
+  font-size: 0.9rem;
+  margin-left: 30px;
+}
+#header li a {
+  color: #24292e;
+}
+#header li a:hover {
+  opacity: 0.7;
+}
+#header li img.icon {
+  width: 20px;
+}
+
+/*-------------------------------------------
+フッター
+-------------------------------------------*/
+#footer {
+  background-color: #24292e;
+  color: #fff;
+  font-size: 0.5rem;
+  padding: 10px 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+/*-------------------------------------------
+固定ページ
+-------------------------------------------*/
+#page p {
+  margin-bottom: 30px;
+}
+#page ul {
+  margin-bottom: 30px;
+}
+#page .form {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+#page .form dt {
+  width: 15%;
+}
+#page .form dd {
+  width: 85%;
+  margin-bottom: 10px;
+}
+#page .form dd input,
+#page .form dd textarea {
+  width: 100%;
+  border: solid 1px #c8c8c8;
+  padding: 10px;
+}
+#page .form dd textarea {
+  height: 10rem;
+}
+#page .button {
+  text-align: center;
+}
+#page .button input {
+  width: 200px;
+  background-color: #24292e;
+  color: #fff;
+  display: block;
+  padding: 15px 0;
+  margin: 0 auto 10px auto;
+  border: solid 1px #24292e;
+}
+#page .button input:hover {
+  background: #fff;
+  color: #24292e;
+}
+
+/*-------------------------------------------
+投稿ページ
+-------------------------------------------*/
+#single .content {
+  margin: 60px 0;
+}
+#single .content img {
+  width: 100%;
+  height: auto;
+}
+#single .content p {
+  margin-bottom: 20px;
+}
+
+/*-------------------------------------------
+SP
+-------------------------------------------*/
+@media screen and (max-width: 600px) {
+  .site-title {
+    margin-top: 20px;
+  }
+  .page-title {
+    margin: 30px 0;
+  }
+  .article-title {
+    margin: 30px 0;
+  }
+  .sec-title {
+    margin-bottom: 40px;
+  }
+
+  /*-------------------------------------------
+  ヘッダー
+  -------------------------------------------*/
+  #header {
+    max-width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  #header li {
+    font-size: 0.8rem;
+    margin-left: 20px;
+  }
+  #header li:first-child {
+    margin-left: 0;
+  }
+
+  /*-------------------------------------------
+  固定ページ
+  -------------------------------------------*/
+  #page .form {
+    flex-direction: column;
+  }
+  #page .form dt {
+    width: 100%;
+  }
+  #page .form dd {
+    width: 100%;
+  }
+
+  /*-------------------------------------------
+  投稿ページ
+  -------------------------------------------*/
+  #single .content {
+    margin: 30px 0;
+  }
+}

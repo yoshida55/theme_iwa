@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe Diary</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/works.css" />
+  </head>
+
+  <body>
+    <!-- ヘッダー【flex 横2列: ロゴ + ナビ】 -->
+    <header class="header">
+      <!-- └ ロゴ（左） -->
+      <img class="header_logo" src="img/logo.svg" alt="My Work" />
+      <!-- └ ナビ（右） -->
+      <nav class="header_nav">
+        <!-- ナビリスト【flex 横5列: About + Works + News + Contact + Instagram】 -->
+        <ul class="nav_list">
+          <li class="nav_item"><a class="nav_link" href="#">About</a></li>
+          <li class="nav_item"><a class="nav_link" href="#">Works</a></li>
+          <li class="nav_item"><a class="nav_link" href="#">News</a></li>
+          <li class="nav_item"><a class="nav_link" href="#">Contact</a></li>
+          <li class="nav_item">
+            <a class="nav_link" href="#"><img class="nav_img" src="img/icon-instagram.png" alt="Instagram" /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <!-- ===============================================
+       Works
+       =============================================== -->
+      <!-- Worksエリア -->
+      <section class="works_area">
+        <h2 class="works_title">Works</h2>
+        <!-- 作品一覧【flex 縦N行: 作品ブロック】 -->
+        <div class="works_list">
+          <!-- └ 作品ブロック -->
+          <div class="works_item">
+            <img class="works_img" src="img/works1.jpg" alt="PHOTO WORK1" />
+            <p class="works_name">PHOTO WORK1</p>
+            <p class="works_description">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+          </div>
+          <div class="works_item">
+            <img class="works_img" src="img/works2.jpg" alt="PHOTO WORK2" />
+            <p class="works_name">PHOTO WORK2</p>
+            <p class="works_description">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- ===============================================
+       footer
+       =============================================== -->
+    <footer class="footer">
+      <p class="footer_copy">&copy; My Work</p>
+    </footer>
+  </body>
+</html>

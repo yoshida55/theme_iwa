@@ -1,0 +1,48 @@
+.site_header {
+  height: 5rem;
+  width: 100%;
+  background-color: blue;
+  color: white;
+}
+
+.header_inner {
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  gap: 3rem;
+  padding-left: 3rem;
+}
+
+.site_logo {
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo_link {
+  color: white;
+}
+
+.site_nav {
+  color: white;
+}
+
+.nav_list {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 2rem;
+
+  color: white;
+}
+
+.site_nav ul li {
+  list-style: none;
+}
+
+.site_nav ul li a {
+  color: white;
+  text-decoration: none;
+}

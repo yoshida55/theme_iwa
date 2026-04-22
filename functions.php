@@ -34,6 +34,7 @@ function mytheme_scripts()
   wp_enqueue_style('header', get_theme_file_uri('/css/header.css'));
   wp_enqueue_style('index', get_theme_file_uri('/css/index.css'));
   wp_enqueue_style('page-works', get_theme_file_uri('/css/page-works.css'));
+  wp_enqueue_style('page-contact', get_theme_file_uri('/css/page-contact.css'));
 
   wp_enqueue_script('works', get_theme_file_uri('/js/works.js'));
 }
@@ -42,5 +43,5 @@ add_action('wp_enqueue_scripts', 'mytheme_scripts');
 
 
 // -------------------------------------------------------
-// 
+// JavaScript読み込み
 // -------------------------------------------------------

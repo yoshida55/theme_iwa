@@ -20,6 +20,10 @@ img {
   object-fit: cover;
 }
 
+body {
+  margin: 0rem;
+}
+
 .sp_only {
   display: none;
 }

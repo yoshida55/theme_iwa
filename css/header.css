@@ -6,9 +6,11 @@
 }
 
 .header_inner {
+  height: 100%;
+
   display: flex;
   justify-content: left;
-  flex-direction: row;
+  align-items: center;
   gap: 3rem;
   padding-left: 3rem;
 }

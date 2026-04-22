@@ -1,12 +1,14 @@
-  <footer id="footer">
-    <p>&copy; <?php echo bloginfo('name'); ?></p>
-  </footer>
+    <footer class="footer">
+      <?php wp_nav_menu([
+        'theme_location'  => 'footer-menu',
+        'container'       => 'nav',
+        'container_class' => 'footer_nav',
+        'menu_class'      => 'footer_nav_list',
+      ]);  ?>
 
-  <?php wp_footer(); ?>
+      <p class="footer_copy">&copy; My Work</p>
+    </footer>
+    <?php wp_footer(); ?>
+    </body>
 
-  </body>
-
-
-  </a>
-
-  </html>
+    </html>

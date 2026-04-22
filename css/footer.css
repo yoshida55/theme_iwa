@@ -1,0 +1,28 @@
+/* ┌─────────────────────────────────────────┐
+   │ footer                        │
+   └─────────────────────────────────────────┘ */
+
+/* フッター */
+footer {
+  background: black;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 3.5rem 2rem;
+  text-align: center;
+}
+
+.footer_copy {
+}
+
+.footer_nav_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+
+  gap: 2rem;
+}
+
+.footer_nav a {
+  color: white;
+  text-decoration: none;
+}

@@ -4,7 +4,6 @@
 <head>
   <meta charset="<?php bloginfo('charset'); ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title><?php wp_title(); ?></title>
   <meta name="description" content="<?php bloginfo('description'); ?>">
   <link rel="icon" href="<?php echo esc_url(get_theme_file_uri('img/favicon.ico')); ?>">
   <?php wp_head(); ?>
@@ -17,7 +16,7 @@
 
       <!-- ロゴ -->
       <div class="site_logo">
-        <a class="logo_link" href="<?php echo home_url(); ?>">
+        <a class="logo_link" href="<?php echo esc_url(home_url('/')); ?>">
           <?php bloginfo('name'); ?>
         </a>
       </div>

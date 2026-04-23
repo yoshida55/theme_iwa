@@ -5,18 +5,19 @@
 /* newsエリア */
 .news_area {
   padding: 0 var(--side-width);
-  margin-bottom: 10rem;
+  margin-bottom: 0rem;
 }
 
 /* newsタイトル */
 .news_title {
   font-size: 3rem;
   text-align: center;
-  margin-bottom: 3rem;
 }
 
 .news_item {
   border-bottom: 0.1rem solid gray;
+
+  width: 80rem;
 
   display: flex;
   align-items: center;
@@ -24,6 +25,7 @@
   gap: 5rem;
 
   padding: 2rem 2rem 2rem 0;
+  margin: 0 auto;
 }
 
 .news_item:first-child {

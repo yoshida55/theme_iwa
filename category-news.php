@@ -1,18 +1,22 @@
 <?php get_header(); ?>
 
-<main id="news" class="wrapper">
-  <h1 class="page-title"><?php single_cat_title(); ?></h1>
+<main class="main">
+  <section class="news_area">
+    <h2 class="news_title">News</h2>
 
-  <?php if (have_posts()): ?>
-    <dl>
-      <?php while(have_posts()):the_post(); ?>
-        <dt><?php the_time('Y.m.d'); ?></dt>
-        <dd>
-          <a href="<?php the_permalink(); ?>"><?php the_title() ?></a>
-        </dd>
-      <?php endwhile; ?>
-    </dl>
-  <?php endif; ?>
+    <?php if (have_posts()): ?>
+      <?php while (have_posts()): the_post(); ?>
+
+        <dl class="news_list">
+          <div class="news_item">
+            <dt class="news_date"><time datetime="<?php the_time('Y-m-d'); ?>"><?php the_time('Y.m.d'); ?></time></dt>
+            <dd class="news_description">デザイン雑誌「ＸＸＸＸＸＸＸ Vol.11」に掲載していただきました。</dd>
+          </div>
+        </dl>
+  </section>
+
+<?php endwhile; ?>
+<?php endif; ?>
 </main>
 
 <?php get_footer(); ?>

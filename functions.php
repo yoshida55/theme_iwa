@@ -35,6 +35,7 @@ function mytheme_scripts()
   wp_enqueue_style('index', get_theme_file_uri('/css/index.css'));
   wp_enqueue_style('page-works', get_theme_file_uri('/css/page-works.css'));
   wp_enqueue_style('page-contact', get_theme_file_uri('/css/page-contact.css'));
+  wp_enqueue_style('category-news', get_theme_file_uri('/css/category-news.css'));
 
   wp_enqueue_script('works', get_theme_file_uri('/js/works.js'));
 }

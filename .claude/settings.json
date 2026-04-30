@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__auto-memo__memo_read_context",
+      "mcp__auto-memo__memo_write_all"
+    ]
+  }
+}
